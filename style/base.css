@@ -1,0 +1,60 @@
+:root{
+    --primary-color: #fa646b;
+    --text-color: #666666;
+}
+
+.grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.grid_full-width{
+    width: 100%;
+}
+
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+       
+}
+
+.grid_column-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 50%;
+}
+
+.grid_column-3{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 33.3333%;
+}
+
+.grid_column-2-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 20%;
+}
+
+.grid_column-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3334%;
+}
+
+.first_content-heading{
+    font-size: 50px;
+    color: var(--text-color);
+}
+
+.heading_style{
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-weight: 600;
+    padding-top: 80px;
+}
+
+
