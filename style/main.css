@@ -356,7 +356,6 @@ html{
     width: 80%;
     box-sizing: border-box;
     padding: 25px;
-    z-index: 1000;
     text-shadow: 5px 5px 10px black;
 }
 
