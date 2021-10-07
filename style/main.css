@@ -13,7 +13,7 @@ html{
 .container_header{
     height: 1006px;
     padding-top: 50%;
-    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(./images/wallpaper.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(../images/wallpaper.jpg);
     background-size: cover;
     background-position: center;
     padding: 0 8%;
