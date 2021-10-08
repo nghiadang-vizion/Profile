@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./font/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="./style/base.css">
+    <link rel="stylesheet" href="./style/responsive.css">
     <title>My profile</title>
 </head>
 <body>
@@ -39,7 +40,11 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <img src="./images/cart.png" alt="" class="nav_cart">
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
                 </div>
             </div>
     
@@ -47,16 +52,6 @@
                 <p>I'M</p>
                 <h1>NGHIA DANG</h1>
                 <h3>a student trained at Ton Duc Thang University</h3>
-                <!-- <div class="content_footer">
-                    <a href="" class="content_footer-conect">Explore My Profile</a>
-                    <a href="" class="content_footer-conect content_footer-has-arrow">Conect With Me 
-                        <span class="content_footer-conect-arrow"> &#x2192;</span> 
-                    </a>
-                    <span class="content_footer-text">
-                        Yeu Can Explore More About My Profile And <br>
-                        Personal Life Experiences Here
-                    </span>
-                </div> -->
             </div>
     
             <div class="social-icons">
@@ -64,6 +59,22 @@
                <a href=""><img src="https://img.icons8.com/fluency/96/000000/instagram-new.png"/></a>
                <a href=""><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
             </div>
+            
+            <div class="content_small">
+                <img src="./images/header_img.jpg" alt="Avt" class="content_small-img">
+                <h1 class="content_small-heading">Dang Nghia</h1>
+                <h3 class="content_small-text">A student trained at Ton Duc Thang University</h3>
+                <div class="content_small-social">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <div class="content_small-btn">
+                    <button class="btn content_small-btn-detail">more about me</button>
+                    <button class="btn content_small-btn-detail">My portfolio</button>
+                </div>
+            </div>
+
         </div>
 
         <!-- about -->
@@ -576,5 +587,7 @@
             <div class="footer-text">&#169; Copyright by Dang Nghia</div>
         </footer>
     </div>
+
+    <script src="./js/app.js"></script>
 </body>
 </html>
