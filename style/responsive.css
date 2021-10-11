@@ -203,7 +203,43 @@
         background-color: black;
         color: white;
     }
-
+    /* Blogs */
+    .grid{
+        width: auto;
+        margin: 0 16px;
+    }
+    .my_blogs-item-label{
+        margin-bottom: 12px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .my_blogs-item-status{
+        margin-bottom: 12px;
+        justify-content: flex-start;
+    }
+    .my_blogs-item-item{
+        margin-right: 12px;
+    }
+    .my_blogs-item-item i,
+    .my_blogs-item-item span{
+        font-size: 13px;
+    }
+    .my_blogs-item-dsc{
+        line-height: 1.6;
+        font-size: 14px;
+    }
+    /* Contact */
+    .grid_full{
+        width: 100%;
+    }
+    .contact_form-text{
+        font-size: 14px;
+        margin: 30px 12px 0;
+    }
+    .contact_form-btn{
+        display: block;
+        margin-left: 12px;
+    }
 }
 
 .nav-active{
