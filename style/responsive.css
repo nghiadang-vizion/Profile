@@ -163,6 +163,16 @@
         color: var(--primary-color);
     }
     /* photos */
+    .grid_column-3{
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 100%;
+    }
+
+    .second_content-img {
+        height: 319px;
+        width: 319px;
+    }
     /* service */
     .my_services{
         max-height: 618px;

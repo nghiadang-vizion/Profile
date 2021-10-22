@@ -1,3 +1,5 @@
+
+
 const navSlide = function (){
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav_content-list');
@@ -42,3 +44,15 @@ const navSlide = function (){
 
 }
 navSlide();
+
+var lasstScrollTop = 0;
+const navbar = document.querySelector('.header')
+window.addEventListener("scroll", function () {
+    var srollTop = this.window.pageYOffset || this.document.documentElement.scrollTop;
+    if (srollTop > lasstScrollTop) {
+        navbar.style.top = '-133px';
+    }else{
+        navbar.style.top = '0';
+    }
+    lasstScrollTop = srollTop;
+})
