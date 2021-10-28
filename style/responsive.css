@@ -173,6 +173,10 @@
         height: 319px;
         width: 319px;
     }
+
+    .photos_link{
+        width: 100%;
+    }
     /* service */
     .my_services{
         max-height: 618px;
