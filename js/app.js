@@ -47,12 +47,25 @@ navSlide();
 
 var lasstScrollTop = 0;
 const navbar = document.querySelector('.header')
+var srollTopBtn = document.querySelector('.social-icons')
 window.addEventListener("scroll", function () {
+    //ẩn hiện header
     var srollTop = this.window.pageYOffset || this.document.documentElement.scrollTop;
+    
     if (srollTop > lasstScrollTop) {
         navbar.style.top = '-133px';
     }else{
         navbar.style.top = '0';
     }
     lasstScrollTop = srollTop;
+
+    //ẩn hiện btn sroll top
+    srollTopBtn.classList.toggle("active", this.window.scrollY > 800);
 })
+
+srollTopBtn.onclick = function () {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+}

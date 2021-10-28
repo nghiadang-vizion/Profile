@@ -45,13 +45,20 @@ html{
     width: 100%;
     padding: 20px 0;
     padding-right: 50px;
+    position: relative;
 }
 
 .logo{
     display: flex;
     align-items: center;
+    position: absolute;
+    top: 13px;
+    left: 6.25%;
 }
 
+.logo img{
+    width: 40px;
+}
 
 .logo-detail{
     display: block;
@@ -187,22 +194,23 @@ html{
 
 .social-icons{
     position: fixed;
-    bottom: 8%;
+    bottom: 11%;
     right: 5%;
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
-.social-icons img{
-    display: block;
-    width: 40px;
-    margin: 25px 5px;
-    color: #ccc;
-    transition: transform 0.3s;
+.social-icons i{
+    font-size: 60px;
+    color: var(--primary-color);
 }
 
-.social-icons img:hover{
-    transform: scale(1.5);
+.social-icons.active{
+    visibility: visible;
+    opacity: 1;
 }
-
 
 .first_content{
     display: flex;
@@ -293,6 +301,8 @@ html{
     font-size: 16px;
     color: var(--text-color);
 }
+
+
 
 
 /* second content */
@@ -691,6 +701,11 @@ html{
 .contact_heading-item-detail{
     font-size: 15px;
     color: var(--text-color);
+}
+
+.contact_heading-item-detail i{
+    margin: 0 8px;
+    font-size: 20px;
 }
 
 .contact_form-text{
