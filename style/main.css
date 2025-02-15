@@ -200,6 +200,7 @@ html{
     opacity: 0;
     cursor: pointer;
     transition: 0.5s;
+    z-index: 9;
 }
 
 .social-icons i{
@@ -558,6 +559,7 @@ html{
     font-size: 22px;
     margin-top: 15px;
     color: var(--text-color);
+    text-transform: uppercase;
 }
 
 .my_services-item-content{
