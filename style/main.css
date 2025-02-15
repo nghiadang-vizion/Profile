@@ -317,6 +317,7 @@ html{
 
 .second_content-detail{
     display: flex;
+    margin: 32px 0;
 }
 
 
@@ -788,6 +789,12 @@ html{
     bottom: 5%;
     left: 50%;
     transform: translate(-50%, 0px);
+}
+
+.photos_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .arrow {
