@@ -666,6 +666,7 @@ html{
     margin-top: 20px;
     overflow: hidden;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .contact_heading:hover{
@@ -772,4 +773,9 @@ html{
 
 .footer-text{
     color: white;
+}
+
+.social_icon{
+    text-decoration: none;
+    color: var(--text-color);
 }
