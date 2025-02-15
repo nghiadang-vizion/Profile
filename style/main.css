@@ -655,7 +655,8 @@ html{
 
 
 .contact_me{
-    margin-bottom: 64px;
+    /* margin-bottom: 64px; */
+    background-color: black;
 }
 
 
@@ -676,6 +677,11 @@ html{
 
 .contact_heading:hover .contact_heading-item-icon{
     background-color: var(--primary-color);
+    color: white;
+}
+.contact_heading:hover .contact_heading-item-content > span > a,
+.contact_heading:hover .contact_heading-item-content > span,
+.contact_heading:hover .contact_heading-item-content > h3{
     color: white;
 }
 
