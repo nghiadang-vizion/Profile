@@ -15,7 +15,7 @@ html{
 
 .container_header{
     width: 100%;
-    height: 1006px;
+    height: 100vh;
     padding-top: 50%;
     background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(../images/wallpaper.jpg);
     background-size: cover;
@@ -778,4 +778,38 @@ html{
 .social_icon{
     text-decoration: none;
     color: var(--text-color);
+}
+
+
+.container_icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+
+.arrow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    animation: bounce 1.2s infinite alternate ease-in-out;
+}
+
+.arrow:nth-child(2) {
+    top: 15px;
+    animation-delay: 0.3s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0) rotate(45deg);
+    }
+    100% {
+        transform: translateY(15px) rotate(45deg);
+    }
 }
